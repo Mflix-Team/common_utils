@@ -276,7 +276,7 @@ class TimelineUtil {
     DayFormat? dayFormat,
   }) {
     int locTimeMs0 = locTimeMs ?? DateTime.now().millisecondsSinceEpoch;
-    String locale0 = locale ?? 'en';
+    String locale0 = locale ?? 'zh';
     TimelineInfo info = _timelineInfoMap[locale0] ?? EnInfo();
     DayFormat dayFormat0 = dayFormat ?? DayFormat.Common;
 
